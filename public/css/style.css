@@ -62,7 +62,7 @@ color: #222222 !important;
 }
 
 /* Cards */
-.card{
+.listing-card{
     border:none !important;
     margin-bottom: 2rem;
 
@@ -96,3 +96,21 @@ padding: 15px !important;
 .add-btn{
     background-color: red !important;
 }
+
+/* show page */
+.show-img{
+  height: 30vh;
+  width: 30vh;
+  border-radius: 3rem;
+}
+.btns{
+    display: flex;
+}
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+
+}
+/* .container{
+    margin-bottom: 1rem;
+} */
