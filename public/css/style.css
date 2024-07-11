@@ -22,7 +22,7 @@ body{
     height:5rem;
     background-color: white;
 }
-.fa-compass{
+.fa-globe{
     color:red;
     font-size: 2rem;
 }
@@ -111,6 +111,40 @@ padding: 15px !important;
     padding-right: 0;
 
 }
-/* .container{
-    margin-bottom: 1rem;
-} */
+
+.mapContainer{
+    border: 0px solid rgb(191, 222, 17);
+    height: 400px;
+    width: 1000px;
+}
+#map { 
+        height:400px;
+        width:100vh}
+.taxinfo{
+    display: none;
+}
+.search{
+    margin-left: auto;
+}
+.navThree{
+    margin-left: 12rem;
+    margin-right: 8rem;
+}
+.btn-search{
+    background-color: red;
+    color: aliceblue;
+    border-radius: 25rem;
+    padding: 0 1rem 0 1rem;
+}
+.btn-success{
+    background-color: red;
+}
+.btn-search i{
+    display: inline;
+    margin: auto;
+}
+.search-input{
+    border-radius: 25rem;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    font-size: 1rem;
+}
